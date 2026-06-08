@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 4 - Memorias del Fútbol</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="encabezado">
+        <h1>MEMORIAS DEL FUTBOL</h1>
+    </div>
+    <div class="cuerpo">
+        <table border="1">
+            <tr>
+                <td> 
+                    <div class="menu">  
+                        <h2>MENU DE CONTENIDO</h2>
+                        <ul>
+                            <li><a href="../index.html">PAGINA 1</a></li>
+                            <li><a href="../pag/pag2.html">PAGINA 2</a></li>
+                            <li><a href="../pag/pag3.html">PAGINA 3</a></li>
+                            <li><a href="#">PAGINA 4</a></li>
+                              <li><a href="../pag/pag5.html">PAGINA 5</a></li>
+                               <li><a href="../pag/pag6.html">PAGINA 6</a></li>
+                        </ul>
+                    </div>
+                </td>
+                <td> 
+                    <div class="contenido">
+    <div class="contenedor_formulario">
+        <h2>GRAN SORTEO: CAMISETA DEL MUNDIAL</h2>
+        <hr>
+        <form id="registroForm">
+            <div class="campo_formulario">
+                <label for="nombres">Nombre(s):</label>
+                <input type="text" id="nombres" name="nombres">
+            </div>
+            <div class="campo_formulario">
+                <label for="apPaterno">Apellido Paterno:</label>
+                <input type="text" id="apPaterno" name="apPaterno">
+            </div>
+            <div class="campo_formulario">
+                <label for="apMaterno">Apellido Materno:</label>
+                <input type="text" id="apMaterno" name="apMaterno">
+            </div>
+            <div class="campo_formulario">
+                <label for="ci">Número de CI:</label>
+                <input type="text" id="ci" name="ci">
+            </div>
+            <div class="campo_formulario">
+                <label for="registroU">Registro Universitario:</label>
+                <input type="text" id="registroU" name="registroU">
+            </div>
+            <div class="campo_formulario">
+                <label for="fechaNac">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNac" name="fechaNac">
+            </div>
+
+            <div class="campo_formulario">
+                <label for="camiseta">Camiseta a Elegir:</label>
+                <select id="camiseta" name="camiseta">
+                    <option value="">-- Selecciona una Opción --</option>
+                    <option value="argentina">Argentina (Tres Estrellas)</option>
+                    <option value="brasil">Brasil (Clásica Canarinha)</option>
+                    <option value="francia">Francia (Les Bleus)</option>
+                    <option value="alemania">Alemania (Die Mannschaft)</option>
+                </select>
+            </div>
+            
+            <div class="campo_formulario">
+                <label for="talla">Talla de Polera:</label>
+                <select id="talla" name="talla">
+                    <option value="">-- Selecciona tu Talla --</option>
+                    <option value="S">Small (S)</option>
+                    <option value="M">Medium (M)</option>
+                    <option value="L">Large (L)</option>
+                    <option value="XL">Extra Large (XL)</option>
+                </select>
+            </div>
+
+            <div class="campo_formulario_boton">
+                <button type="submit" id="btnVerificar">Registrar y Participar</button>
+            </div>
+        </form>
+    </div>
+</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="pie"> 
+            <h3>DERECHOS DE AUTOR COLOSO_64</h3>
+        </div>
+</footer>
+
+    <script src="../js/sorteo.js"></script>
+</body>
+</html>

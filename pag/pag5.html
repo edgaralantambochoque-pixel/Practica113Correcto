@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 5 - Memorias del Fútbol</title>
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="encabezado">
+        <h1>MEMORIAS DEL FUTBOL</h1>
+    </div>
+    <div class="cuerpo">
+        <table border="1">
+            <tr>
+                <td> 
+                    <div class="menu">  
+                        <h2>MENU DE CONTENIDO</h2>
+                        <ul>
+                            <li><a href="../index.html">PAGINA 1</a></li>
+                            <li><a href="../pag/pag2.html">PAGINA 2</a></li>
+                            <li><a href="../pag/pag3.html">PAGINA 3</a></li>
+                            <li><a href="../pag/pag4.html">PAGINA 4</a></li>
+                            <li><a href="#">PAGINA 5</a></li>
+                             <li><a href="../pag/pag6.html">PAGINA 6</a></li>
+                        </ul>
+                    </div>
+                </td>
+                <td> 
+                    <div class="contenido">
+                        <h2>CONVERSOR DE BASES NUMÉRICAS</h2>
+                        <p>Introduce un número en sistema Decimal para calcular sus equivalencias matemáticas en los sistemas más usados en informática.</p>
+                        <hr>
+
+                        <div class="contenedor-conversor">
+                            <div class="entrada-datos">
+                                <label for="numeroDecimal">Número Decimal:</label>
+                                <input type="number" id="numeroDecimal" placeholder="Ej. 25" oninput="convertirBases()">
+                            </div>
+
+                            <div class="resultados-conversor">
+                                <div class="caja-resultado">
+                                    <span class="etiqueta-base">Binario (Base 2):</span>
+                                    <div id="resBinario" class="cuadro-salida">0</div>
+                                </div>
+                                <div class="caja-resultado">
+                                    <span class="etiqueta-base">Octal (Base 8):</span>
+                                    <div id="resOctal" class="cuadro-salida">0</div>
+                                </div>
+                                <div class="caja-resultado">
+                                    <span class="etiqueta-base">Hexadecimal (Base 16):</span>
+                                    <div id="resHex" class="cuadro-salida">0</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="pie"> 
+            <h3>DERECHOS DE AUTOR COLOSO_64</h3>
+        </div>
+    </footer>
+
+    <script src="../js/conversor.js"></script>
+</body>
+</html>
